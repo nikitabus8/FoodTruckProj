@@ -1,0 +1,64 @@
+img{
+    width: 300px;
+}
+.menu{
+    width: 100%;
+    text-align: center;
+}
+.main h1{
+    margin-bottom: 20px;
+}
+.menu-items{
+    width: 100%;
+}
+.main-dishes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.main-dishes h2{
+    color: black;
+    font-size: 30px;
+}
+.other{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.drinks{
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.drinks h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cols{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+li{
+    font-size: 19px;
+}
+.side{
+    margin-right: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.side h2{
+    margin-bottom: 15px;
+}
+h3{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 38px;
+    color: black;
+}
+span{
+    text-decoration: underline;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
